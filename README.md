@@ -23,12 +23,12 @@
 
 | 产品 | 客户端系统 | 内核 | 免费额度 | 自动化 | 公开的数据存储口径 |
 |---|---|---|---:|---|---|
-| AdsPower | Windows、macOS、Ubuntu | Chromium、Firefox | 2 个环境 | Local API、RPA | 本地缓存；可选云同步 |
-| Dolphin Anty | Windows、macOS、Linux | Chromium | 5 个环境 | API、CDP、Selenium、Puppeteer、Playwright | 本地；可选云同步 |
-| GoLogin | Windows、macOS、Linux、Android | Orbita（Chromium） | 3 个环境 | REST API、Selenium、Puppeteer、Playwright | 云同步；运行时有本地临时数据 |
-| MoreLogin | Windows、macOS | Chrome、Firefox | 2 个环境、2 个成员 | Local API、Selenium、Puppeteer | 本地缓存；可选云同步 |
-| Multilogin | Windows、macOS、Ubuntu | Chromium 系；Firefox 系（legacy） | 5 个环境 | API、Selenium、Puppeteer、Playwright | 云端或本地；移动环境仅云端 |
-| Web4 Browser | Windows、macOS | Fingerprint Chromium、Fingerprint Firefox | 3 个环境 | CDP、Headless、Selenium、Puppeteer、Playwright、MCP | 浏览器数据默认本地存储 |
+| [AdsPower](https://www.adspower.com) | Windows、macOS、Ubuntu | Chromium、Firefox | 2 个环境 | Local API、RPA | 本地缓存；可选云同步 |
+| [Dolphin Anty](https://dolphin-anty.com) | Windows、macOS、Linux | Chromium | 5 个环境 | API、CDP、Selenium、Puppeteer、Playwright | 本地；可选云同步 |
+| [GoLogin](https://gologin.com) | Windows、macOS、Linux、Android | Orbita（Chromium） | 3 个环境 | REST API、Selenium、Puppeteer、Playwright | 云同步；运行时有本地临时数据 |
+| [MoreLogin](https://www.morelogin.com) | Windows、macOS | Chrome、Firefox | 2 个环境、2 个成员 | Local API、Selenium、Puppeteer | 本地缓存；可选云同步 |
+| [Multilogin](https://multilogin.com) | Windows、macOS、Ubuntu | Chromium 系；Firefox 系（legacy） | 5 个环境 | API、Selenium、Puppeteer、Playwright | 云端或本地；移动环境仅云端 |
+| [Web4 Browser](https://web4browser.io) | Windows、macOS | Fingerprint Chromium、Fingerprint Firefox | 3 个环境 | CDP、Headless、Selenium、Puppeteer、Playwright、MCP | 浏览器数据默认本地存储 |
 
 完整操作系统版本、团队功能、代理、来源 URL 和限制见[产品事实 CSV](data/products.csv)与[六个平台详细对比](docs/comparison.md)。“官方资料列出支持”不等于本项目已验证其稳定性，也不表示免费套餐一定包含。
 
