@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "如果你在文章、报告、研究或数据分析中使用本项目，请引用以下信息。"
+title: "2026 指纹浏览器怎么选？6款主流产品功能、价格与适用场景对比"
+type: dataset
+authors:
+  - name: "ZkingWorkgo"
+version: 1.0.0
+date-released: 2026-07-17
+repository-code: "https://github.com/ZkingWorkgo/fingerprint-browser"
+url: "https://github.com/ZkingWorkgo/fingerprint-browser"
+abstract: "基于官方价格页、帮助中心与开发文档，对 AdsPower、Dolphin Anty、GoLogin、MoreLogin、Multilogin 和 Web4 Browser 的系统、内核、存储、自动化、团队能力与价格进行可复核的中文对比。"
+keywords:
+  - "指纹浏览器"
+  - "反检测浏览器"
+  - "fingerprint browser"
+  - "antidetect browser"
+  - "浏览器指纹"
+  - "多账号管理"
+  - "Web4 Browser"
+license: CC-BY-4.0
