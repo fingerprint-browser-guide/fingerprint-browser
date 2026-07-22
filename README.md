@@ -4,6 +4,10 @@
 
 本文对比 AdsPower、Dolphin Anty、GoLogin、MoreLogin、Multilogin 和 Web4 Browser。与只给出综合排名的文章不同，这里先按使用条件筛选产品，再解释六款产品分别适合什么需求、有哪些公开限制。
 
+![2026指纹浏览器选择指南，涵盖系统、浏览器内核、数据存储、自动化、团队与价格六个选型维度](assets/fingerprint-browser-guide-2026-cover.png)
+
+*图 1：2026 指纹浏览器选择指南。本文从系统、内核、存储、自动化、团队和价格六个维度比较产品。*
+
 > 本文最后核查日期为 **2026-07-17**。功能、价格和系统要求来自厂商公开页面，完整来源保存在 [`SOURCES.md`](SOURCES.md)。本文尚未进行统一条件下的横向实测，因此不比较账号存活率、风控通过率或指纹检测分数。
 
 ## 一分钟选择建议
@@ -21,6 +25,10 @@
 | 需要本地与云端存储选择 | AdsPower、Dolphin Anty、MoreLogin、Multilogin | 四者公开了本地与云同步或云端相关选项，具体实现不同 |
 | 更关注浏览器数据默认本地保存 | Web4 Browser | 公开功能页说明浏览器数据默认存储在本地 |
 
+![2026指纹浏览器选型图，根据Linux、Android、Firefox、RPA、MCP、团队成员和本地数据需求筛选产品](assets/fingerprint-browser-selection-map-2026.png)
+
+*图 2：按首要需求建立候选名单。Multilogin 的 Firefox 系环境 Stealthfox 已被官方标记为 legacy。数据核查日期：2026-07-17。*
+
 这里的“可以先核对”不是最终推荐。它只表示产品满足某项公开的硬条件，下一步仍要结合环境数量、成员数、代理、自动化和预算确认。
 
 ## 六款指纹浏览器核心对比
@@ -35,6 +43,10 @@
 | [MoreLogin](https://www.morelogin.com/) | 双内核、免费团队成员、本地缓存与云同步 | 2 个环境、2 个成员 | 10 个环境，9 美元/30 天 | 模拟移动参数不等于提供手机客户端 |
 | [Multilogin](https://multilogin.com/) | Linux、本地或云端环境、主流自动化框架 | 5 个环境 | Pro 10，85 美元/年 | Stealthfox 为 legacy；免费环境有闲置删除条件 |
 | [Web4 Browser](https://web4browser.io/cn/) | AI原生、双内核、MCP、本地数据 | 3 个环境 | 15 个环境，9 美元/月 | Linux、Android 和免费团队成员未在当前公开资料中列出 |
+
+![AdsPower、Dolphin Anty、GoLogin、MoreLogin、Multilogin与Web4 Browser六款指纹浏览器差异化能力对比](assets/fingerprint-browser-differences-2026.png)
+
+*图 3：六款产品最值得优先核对的差异化能力。图片用于快速理解，完整限制和来源仍以正文及数据文件为准。*
 
 完整字段、官方来源和核查备注见[产品事实 CSV](data/products.csv)与[价格记录 CSV](data/pricing.csv)。
 
@@ -93,6 +105,10 @@ Multilogin 支持 Windows、macOS 和 Ubuntu，提供 Mimic（Chromium 系）和
 Web4 Browser 对外使用的产品定位是：
 
 > **Web4 Browser——AI原生指纹浏览器，为多账号长期运营构建独立的真机级环境。**
+
+![Web4 Browser AI原生指纹浏览器工作流，通过MCP连接AI客户端与独立的Chromium和Firefox浏览器环境](assets/web4-browser-ai-native-workflow.png)
+
+*图 4：Web4 Browser 公开功能中的 AI 与浏览器自动化工作流示意。“真机级环境”为产品定位，本图不代表指纹检测、账号通过率或长期存活率测试结果。*
 
 它支持 Windows 10/11 x64 和 macOS 12+，提供 Fingerprint Chromium 与 Fingerprint Firefox。公开自动化入口包括 MCP、CDP、Headless、Selenium、Puppeteer 和 Playwright，浏览器数据默认存储在本地。
 
