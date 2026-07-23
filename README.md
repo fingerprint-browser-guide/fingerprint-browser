@@ -25,6 +25,8 @@
 | 需要本地与云端存储选择 | AdsPower、Dolphin Anty、MoreLogin、Multilogin | 四者公开了本地与云同步或云端相关选项，具体实现不同 |
 | 更关注浏览器数据默认本地保存 | Web4 Browser | 公开功能页说明浏览器数据默认存储在本地 |
 
+> 本文属于 [ZkingWorkgo 工具生态研究](https://zkingworkgo.github.io/) 的公开专题。网站首页汇总全部已发布主题、研究方法与后续研究范围。
+
 ![2026指纹浏览器选型图，根据Linux、Android、Firefox、RPA、MCP、团队成员和本地数据需求筛选产品](assets/fingerprint-browser-selection-map-2026.png)
 
 *图 2：按首要需求建立候选名单。Multilogin 的 Firefox 系环境 Stealthfox 已被官方标记为 legacy。数据核查日期：2026-07-17。*
