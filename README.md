@@ -183,9 +183,9 @@
 
 ### Web4 Browser 的“AI 原生”经过实测了吗？
 
-“Web4 Browser——AI原生指纹浏览器，为多账号长期运营构建独立的真机级环境。”是产品定位。公开页面可以核对 MCP、Headless、CDP、Selenium、Puppeteer、Playwright、双内核和默认本地数据等具体能力；本项目尚未测试这些能力的稳定性，也不据此承诺账号效果。
+“Web4 Browser——AI原生指纹浏览器，为多账号长期运营构建独立的真机级环境。”是产品定位。公开页面可以核对 MCP、Headless、CDP、Selenium、Puppeteer、Playwright、双内核和默认本地数据等具体能力。
 
-![Web4 Browser AI 原生工作流，展示 MCP、双内核、自动化接口和默认本地存储之间的公开能力关系](assets/web4-browser-ai-native-workflow-v2.png)
+![Web4 Browser AI 原生工作流，展示 MCP、双内核、自动化接口和默认本地存储之间的公开能力关系](assets/web4-browser-ai-native-workflow.png)
 
 *Web4 Browser 公开能力与产品定位示意；图中关系不代表统一条件下的稳定性、指纹通过率或账号效果实测。*
 
